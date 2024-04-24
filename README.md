@@ -1,4 +1,6 @@
-In this analysis, we examined a dataset containing information about Facebook posts and aimed to build regression and classification models to predict different outcomes. Before proceeding with the modeling, we performed some preprocessing steps.
+# Social Media Reach Analysis
+
+In this analysis, I examined a dataset containing information about Facebook posts and aimed to build regression and classification models to predict different outcomes. Before proceeding with the modeling, I performed some preprocessing steps.
 
 First, we performed one-hot encoding on the categorical features to convert them into numerical representations that can be used by the models. This encoding was done using the get_dummies() function from the Pandas library. Additionally, for the classification task, we encoded the categorical target variable using LabelEncoder().
 
